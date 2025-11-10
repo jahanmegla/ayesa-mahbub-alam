@@ -9,11 +9,7 @@ const IMAGE_DATA = [
     { 
         id: 1, 
         text: "Year One", 
-        // OPTION 1: Use a direct URL
-        // imageUrl: "https://yourwebsite.com/images/anniversary/year-one.jpg" 
-        // OPTION 2: Use a local image import (uncomment the import statement above too!)
-        // imageUrl: yearOneImage 
-        // For now, keeping placehold.co so it still works if you don't add your images immediately
+     
         imageUrl: "https://i.postimg.cc/jdKSR4bc/Screenshot-20251103-212924-Whats-App.jpg"
     },
     { 

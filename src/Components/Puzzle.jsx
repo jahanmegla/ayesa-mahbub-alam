@@ -14,7 +14,7 @@ function Puzzle() {
   });
 
   const image =
-    "https://i.postimg.cc/s25N9MgY/Screenshot-20251101-191046.jpg";
+    "https://i.postimg.cc/jdKSR4bc/Screenshot-20251103-212924-Whats-App.jpg";
 
   // Responsive confetti
   useEffect(() => {
@@ -101,24 +101,22 @@ function Puzzle() {
   return (
     <div className="flex flex-col items-center mt-2 px-2 select-none">
       <h2 className="text-4xl text-yellow-800 font-extrabold text-center p-2">Let's Play with your Photo</h2>
-      {/* {isWin && (
-        <Confetti width={windowSize.width} height={windowSize.height} />
-      )} */}
+  
 
       {isWin && (
   <Confetti
     width={window.innerWidth}
     height={window.innerHeight}
     style={{
-      position: "fixed",   // পুরো স্ক্রিন জুড়ে
+      position: "fixed",  
       top: 0,
       left: 0,
-      zIndex: 9999,        // সব element এর উপরে
-      pointerEvents: "none", // button/ puzzle click block করবে না
+      zIndex: 9999,        
+      pointerEvents: "none", 
     }}
-    numberOfPieces={500}   // বেশি pieces চাইলে বাড়াও
-    gravity={0.3}          // ধীরে পড়বে
-    recycle={true}        // একবার burst হয়ে শেষ হবে
+    numberOfPieces={500}   
+    gravity={0.3}         
+    recycle={true}        
   />
 )}
 {/* 

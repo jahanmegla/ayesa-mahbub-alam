@@ -1,5 +1,6 @@
 import './App.css'
 
+
 import Header from './Components/Header'
 import Memories from './Components/Memories'
 import Puzzle from './Components/Puzzle'
@@ -21,7 +22,7 @@ function App() {
       <main className="max-w-4xl mx-auto p-6">
         <Puzzle />
       </main>
-
+         
       {/* Footer / additional content */}
     
 <footer className="text-center py-8 border-t border-yellow-200 bg-gradient-to-b from-white via-amber-50 to-yellow-100 backdrop-blur-sm">
